@@ -1,5 +1,6 @@
 cff-version: "1.2.0"
-message: If you use this app, please cite it and the works it builds on, listed under references.
+message: >-
+  If you use this app, please cite the work it implements (preferred-citation), this release, and Pennsieve (RRID:SCR_021677); the other works it builds on are listed under references.
 type: software
 title: ANTs registration to MNI152
 abstract: Registers each T1-weighted image to the MNI152NLin2009cAsym template with ANTs and carries an
@@ -16,6 +17,45 @@ keywords:
 - ants
 - registration
 - mni
+# The work this app implements; the release report's "How to cite" puts it first.
+preferred-citation:
+  type: article
+  title: The ANTsX ecosystem for quantitative biological and medical imaging
+  authors:
+  - family-names: Tustison
+    given-names: Nicholas J.
+  - family-names: Cook
+    given-names: Philip A.
+  - family-names: Holbrook
+    given-names: Andrew J.
+  - family-names: Johnson
+    given-names: Hans J.
+  - family-names: Muschelli
+    given-names: John
+  - family-names: Devenyi
+    given-names: Gabriel A.
+  - family-names: Duda
+    given-names: Jeffrey T.
+  - family-names: Das
+    given-names: Sandhitsu R.
+  - family-names: Cullen
+    given-names: Nicholas C.
+  - family-names: Gillen
+    given-names: Daniel L.
+  - family-names: Yassa
+    given-names: Michael A.
+  - family-names: Stone
+    given-names: James R.
+  - family-names: Gee
+    given-names: James C.
+  - family-names: Avants
+    given-names: Brian B.
+  year: 2021
+  journal: Scientific Reports
+  volume: 11
+  issue: '1'
+  start: '9068'
+  doi: 10.1038/s41598-021-87564-6
 references:
 - type: article
   title: The ANTsX ecosystem for quantitative biological and medical imaging
